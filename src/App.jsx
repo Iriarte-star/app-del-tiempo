@@ -35,7 +35,7 @@
 // export default App
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../weather.css';
+import './estilos/weather.css';
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
